@@ -1,0 +1,7 @@
+# Reflexión
+
+Una decisión importante que tomé en el CSS fue utilizar **CSS Grid** para organizar la sección de “Funciones principales” en lugar de usar **Flexbox**. Elegí Grid porque esta sección tiene tres tarjetas que deben mantenerse alineadas de forma ordenada tanto en computadores como en tabletas y celulares. Grid facilita definir columnas y modificar su distribución mediante media queries, lo que hace que el diseño sea más consistente y fácil de adaptar a diferentes tamaños de pantalla.
+
+**Si hubiera utilizado Flexbox, el resultado habría sido diferente**, ya que las tarjetas se acomodarían según el espacio disponible y habría sido necesario agregar reglas adicionales para mantener una distribución uniforme. **Elegí Grid porque permite controlar mejor una estructura bidimensional de filas y columnas**, que es exactamente el tipo de organización que necesitaba esta sección.
+
+También decidí separar el CSS en dos archivos: `main.css` para los estilos generales y `responsive.css` para las reglas relacionadas con los diferentes tamaños de pantalla. Esta organización hace que el proyecto sea más fácil de leer y mantener, ya que los estilos principales no se mezclan con las modificaciones específicas para dispositivos móviles, tabletas y escritorio. Considero que esta estructura será más útil si el proyecto crece en el futuro y necesita agregar nuevas secciones o componentes.
